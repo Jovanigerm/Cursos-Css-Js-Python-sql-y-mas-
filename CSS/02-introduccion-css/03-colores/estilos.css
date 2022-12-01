@@ -1,0 +1,28 @@
+h1{
+    color: rebeccapurple;
+}
+p{
+    color: #79d0a9;
+    background-color: #ffbd69;
+}
+h3{
+    color: rgb(105, 59, 190);
+}
+h4{
+    color: rgba(44, 118, 204, 0.452);
+}
+#encabezado-uno{
+    color: blue;
+}
+#encabezado-seis{
+    color: red;
+}
+.encabezado-uno{
+    color: red;
+}
+.text-danger{
+    color: red;
+}
+.bg-blue{
+    background-color: blue;
+}

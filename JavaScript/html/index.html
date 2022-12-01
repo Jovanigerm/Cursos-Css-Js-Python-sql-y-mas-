@@ -1,0 +1,99 @@
+<!DOCTYPE html> <!--Tipo de lenguaje-->
+<html lang="en">
+<head> <!--Metadatos o informacion no visible dentro de la pagina-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><!--Cuerpo de una pagina web-->
+        <h1>Etiquetas para titulo </h1>
+        <p> 
+            "< h1 > < /h1 >" , "< h2 >< /h2 >" , "< h3 >< /h3 >" </br> "< h4 >< /h4 >" , "< h5 >< /h5 >" y "< h6 >< /h6 >" <br>
+        </p>
+        <hr>
+        <h1>Multiples etiquetas para parrafos </h1>
+        <p>
+        Etiqueta "p": Para parrafo </br>
+        Etiqueta "br": Para salto de linea </br>
+        Etiqueta "hr": Para salto de linea visual</br>
+        Etiqueta "strong": Para palabras en negritas<br>
+        Etiqueta "em" o "i": Para palabras en cursiva<br>
+        Etiqueta "spam": Para maquetacion posterior <br>
+        Etiqueta "blockquote" Para formato de cita
+        </p>
+        <hr>
+        <h1>Etiquetas para listas</h1>
+        Etiqueta "ol": Para listas ordenadas <br>
+        Etiqueta "ul": Para listas desordenadas <br>
+        <strong>Ejemplo</strong>
+        <ul >
+            <li >Manzana
+                <ul >
+                    <li > verde </li >
+                    <li > roja </li >
+                </ul >
+            </li >
+            <li >Pera</li >
+            <li >Durazno</li >
+        </ul > 
+        <hr>
+        <h1>Etiqueta de imagenes</h1>
+        Etiqueta "img": Para colocar imagenes en html <br>
+        <img src="img/c24c31dc8e46aaaa41bd003e1d8417d0.jpeg" alt="Imagen de un perro" title="Imagen de un perro" width="250px" height="250px">            
+        <hr>
+        <h1>Etiquetas para tablas</h1>
+        Etiqueta "table": Para comenzar una tabla <br>
+        Etiqueta "tr": Para generar una fila <br>
+        Etiqueta "td": Para generar una columnas <br>
+        Etiqueta "th": Para indicar los encabezados <br>
+        Atributo "colspam": Para "td" o "th" que indicara el tamaño de columnas
+        <strong>Ejemplo</strong>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Pais</th>
+            </tr>
+            <tr>
+                <td>Jorge</td>
+                <td colspan="2">German</td>
+            </tr>
+        </table>
+        <hr>
+        <h1>Etiquetas para formulario</h1>
+        Etiqueta "form": Para comenzar un formulario <br>
+        Etiqueta "input": Para generar campos <br>
+        Etiqueta "label": Para asignar un nombre a un campo <br>
+        Etiqueta "Select": Para generar una lista desplegable con los registros asignados <br>
+        Etiqueta "Option": Va dentro de la etiqueta "Select" y sirve para signar registros determinados <br>
+        Atributo "type": Ocupado en la etiqueta "input" para asignar el tipo de campo <br>
+        Atributo "for": Ocupado en la etiqueta label para asignarlo a un campo <br>
+        Atributo "name":  Ocupado en la etiqueta "input" para asignarle un nombre <br>
+        Atributo "placeholder": Ocupado en la etiqueta "input" para agregar un texto visual que luego desaparecera
+        
+        <form action="">
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tu nombre">
+            </p>
+            <p>
+                <label for="descripcion">Descripcion</label>
+                <textarea name="descripcion"></textarea>    
+            </p>
+            <p>
+                <input type="radio" name="Genero" value="Hombre">Hombre <br>
+                <input type="radio" name="Genero" value="Mujer">Mujer <br>
+                <input type="radio" name="Genero" value="Nada">Nada <br>
+            </p>
+            <p>
+                <select name="" id="">
+                    <option value="">Hombre</option>
+                    <option value="">Mujer</option>
+                    <option value="">Nada</option>
+                </select>
+            </p>
+            <input type="submit" name="enviar" value="enviar">
+        </form>
+    </body>
+</html>
