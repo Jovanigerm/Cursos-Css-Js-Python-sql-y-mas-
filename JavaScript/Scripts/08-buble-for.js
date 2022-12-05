@@ -11,5 +11,6 @@ for(var i = 0 ; i<=100; i++){
     if(i == 100){
         console.log("llegaste al final de bucle")
     }
+    //Debugger para la ejecucion del codigo justo en el sitio de su colocacion
     debugger;
 }

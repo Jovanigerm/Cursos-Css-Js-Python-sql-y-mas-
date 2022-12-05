@@ -14,10 +14,3 @@ if(elemento>=nombres.length){
 else{
     alert(nombres[elemento]);
 }
-
-document.write("<h1> Lenguajes de programacion del 2021: ");
-document.write("<ul>");
-for(var i = 0; i<lenguajes.length; i++){
-    document.write("<li>"+lenguajes[i]+"</li>")
-}
-document.write("</ul>");

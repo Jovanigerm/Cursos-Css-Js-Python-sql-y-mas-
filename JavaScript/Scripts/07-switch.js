@@ -1,9 +1,9 @@
 "use strict"
 
 //Switch
-
-var edad= 24;
+var edad= 75;
 var imprime = "";
+
 switch(edad){
     case 18:
         imprime="Acabas de cumplir la mayoria de edad";
@@ -20,4 +20,4 @@ switch(edad){
     default:
         imprime="Tu erar es neutra";
     }
-    console.log(imprime);
+console.log(imprime);

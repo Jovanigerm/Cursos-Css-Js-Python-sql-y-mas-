@@ -8,7 +8,7 @@ function listadoFrutas(fruta1,fruta2, ...resto_de_frutas){
     console.log(resto_de_frutas);
 }
 
-listadoFrutas("Naranja","Manzana", "Sandia","Pera", "Melon", "Coco");
+listadoFrutas("Naranja","Manzana", "Sandia","Pera", "Melon", "Coco","Durasno");
 
 var frutas= ["Naranja","Manzana"];
 //SPREAD

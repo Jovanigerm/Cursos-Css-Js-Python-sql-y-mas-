@@ -1,7 +1,8 @@
 'use strict';
 // Pruebas con let y var
 
-//Prueba var
+// Prueba var
+// La sentencia var declara una variable, opcionalmente inicializándola con un valor.
 var numero = 40;
 console.log(numero) //valor 40
 

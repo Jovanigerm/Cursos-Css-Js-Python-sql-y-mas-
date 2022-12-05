@@ -10,7 +10,7 @@ let prueba = "hola";
 alert(prueba);
 pais= "Mexico";
 continente = "LatinoAmerica";
-
+// la coma dentro de un console.log se ocupa para poder juntar varialbes mas no unirlas
 console.log(continente,pais, antiguedad);
 
 alert(pais_y_continente);

@@ -4,8 +4,6 @@ function holaMundo(texto){
     console.log(texto);
     console.log(numero.toString()); //--------> Permite trasformar a un string
     console.log(hola_mundo);
-
-
 }
 var numero = 12;
 var texto = 'Hola mundo soy una variable global';

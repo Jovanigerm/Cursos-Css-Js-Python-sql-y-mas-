@@ -4,7 +4,7 @@
 alert("Hola");
 
 //Confirmacion
-
+//el comando confirm permite aceptar o negar una alerta
 var resultado = confirm("¿Estas seguro de querer continuar?");
 console.log(resultado);
 

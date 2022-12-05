@@ -29,32 +29,41 @@ var dato = numero.toString();
 //---------------------------------------------------------------------------------------
 //------------------Busqueda de texto------------------
 var busqueda = texto1.indexOf("curso");
-    console.log("(indexOf)La posicion de la primera aparicion de la palabra es: "+ busqueda);
+    console.log("(indexOf) La posicion de la primera aparicion de la palabra es: "+ busqueda);
+    
     busqueda = texto1.lastIndexOf("curso");
-    console.log("La posicion de la ultima aparicion de la palabra es: "+ busqueda);
+    console.log("(lastIndexOf) La posicion de la ultima aparicion de la palabra es: "+ busqueda);
+    
     busqueda = texto1.search("curso");
-    console.log("(search)La posicion de la primera aparicion de la palabra es: "+ busqueda);
-    busqueda = texto1.match(/curso/g);
+    console.log("(search) La posicion de la primera aparicion de la palabra es: "+ busqueda);
+    
+    busqueda = texto1.match(/Victor/g);
     console.log(busqueda);
+    
     busqueda = texto1.substr(14,5);
-    console.log("Muestra 5 caracteres despues del caracter 14: " + busqueda);
+    console.log("(subtr) Muestra 5 caracteres despues del caracter 14: " + busqueda);
+    
     busqueda = texto1.charAt(44);
-    console.log("Saca la letra concreta de un string: " + busqueda);
-    busqueda = texto1.startsWith("Victor");
-    console.log("Busca al inicio del string un texto en especifico: " + busqueda );
+    console.log("(chartAt) Saca la letra concreta de un string: " + busqueda);
+    
+    busqueda = texto1.startsWith("Bienvenido");
+    console.log("(startsWith) Busca al inicio del string un texto en especifico: " + busqueda );
+    
     busqueda = texto1.endsWith("Victor");
-    console.log("Busca al Final del string un texto en especifico: " + busqueda );
+    console.log("(endsWith) Busca al Final del string un texto en especifico: " + busqueda );
+
     busqueda = texto1.includes("javascript");
-    console.log("Busca una palabra en el string un texto: " + busqueda );
-//--------------Remplazar texto------------------------
+    console.log("(includes) Busca una palabra en el string un texto: " + busqueda );
+
+    //--------------Remplazar texto------------------------
 var busqueda = texto1.replace("javascript","JavaScript");
-    console.log("Se remplaza una palabra: "+busqueda);
+    console.log("(replace) Se remplaza una palabra: "+busqueda);
     busqueda = texto1.slice(14,22);
-    console.log("Corta el texto y comienza desde el caracter indicado: " + busqueda);
+    console.log("(slice) Corta el texto y comienza desde el caracter indicado: " + busqueda);
     busqueda = texto1.split(" "); //-----------> Genera un indice con el texto
     console.log(busqueda) 
     texto1 = "       Bienvenido al curso de javascript curso de Victor     ";
     busqueda = texto1.trim();
-    console.log("Elimina los espacios al inicio y al final de un texto: "+busqueda)
+    console.log("(trim)Elimina los espacios al inicio y al final de un texto: "+busqueda)
 
 //
