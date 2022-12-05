@@ -18,10 +18,16 @@ else{
 document.write("<h1> Lenguajes de programacion del 2021: ");
 document.write("<ul>");
 
-for(var i = 0; i<lenguajes.length; i++){
-    document.write("<li>"+lenguajes[i]+"</li>")
-}
+// las opeacione siguientes son lo mismo
 
+
+// for(var i = 0; i<lenguajes.length; i++){
+//     document.write("<li>"+lenguajes[i]+"</li>")
+// }
+
+for(let lenguaje in lenguajes){
+    document.write("<li>"+lenguajes[lenguaje]+"</li>")
+}
 
 document.write("</ul>");
 
