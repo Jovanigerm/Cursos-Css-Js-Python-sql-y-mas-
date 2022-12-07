@@ -14,7 +14,6 @@
 
 // // Se declara la variable que sera un array
 // var numeros = [];
-
 // var numero_agregados = "";
 // do{
 //     // Se solicita un numero
@@ -24,7 +23,6 @@
 //     // Se cuenta la cantidad de registros dentro del array
 //     var cantidad = numeros.length;
 // }while(cantidad <= 5 );
-
 // document.write("<h1>Array</h1><br>");
 // document.write(numeros + "<br>");
 // console.log("Array por consola");
@@ -35,7 +33,6 @@
 // document.write(numeros.reverse() + "<br>");
 // document.write("<h1>Cantidad de registros</h1>");
 // document.write(numeros.length + "<br>");
-
 // var consulta = prompt("¿Que numero quieres buscar?");
 // var consulta2 = numeros.find(numero=>numero == consulta);
 // var indice = numeros.findIndex(numero=>numero == consulta);
@@ -54,7 +51,6 @@ function mostrarElementos(elementos,textoCustom = ""){
         document.write("<li>"+ elemento +"</li>");
     })
     document.write("</ul>");
-    
 }
 var numeros = [];
 for(var i = 0; i <= 5; i++ ){
@@ -63,6 +59,16 @@ for(var i = 0; i <= 5; i++ ){
 }
 mostrarElementos(numeros);
 console.log(numeros);
-numeros.sort();
-console.log(numeros);
-
+numeros.sort(function(a,b){return a-b});
+console.log(numeros,'ordenado');
+numeros.reverse();
+mostrarElementos(numeros,'revertido');
+document.write("Elementos" + numeros.length)
+var busqueda =parseInt(prompt("Busca un numero",0));
+var posicion = numeros.findIndex(numero => numero == busqueda);
+if(posicion && posicion != -1){
+    document.write("<h1>Encontrado</h1>")
+    document.write("<h1>Posicion de la busqueda "+ posicion + "</h1>")
+}else{
+    document.write("<hr><h1>No encontrado</h1></hr>")
+}
