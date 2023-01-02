@@ -17,7 +17,7 @@ console.log(parseInt(numero_falso)+6);
 console.log(parseFloat(numero_falso)+6);
 //String Cambia el tipo de dato por un texto
 console.log(String(numero_falso+6));
-//Numbrer Cambia el tipo de datos por un numero
+//Number Cambia el tipo de datos por un numero
 console.log(Number(numero_falso)+7);
 //typeof muestra el tipo de dato que es una variable
 console.log(typeof(cadena_texto));

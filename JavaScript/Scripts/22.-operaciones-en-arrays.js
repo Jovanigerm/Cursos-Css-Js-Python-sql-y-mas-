@@ -18,6 +18,7 @@ if(indice > -1){
 console.log(peliculas);
 
 var cadena = "texto1, texto2, texto 3";
+// Especifica el carácter a usar para la separación de la cadena
 var cadena_array =cadena.split(", ");
 
 console.log(cadena);
@@ -41,11 +42,14 @@ var lenguajes = new Array("php","js","Go","java","python","css","c++");
 //     return lenguaje == "PHP";
 // });
 
+// Devuelve el primer elemento de la matriz
 var busqueda = lenguajes.find(lenguaje => lenguaje == "js");
+// Devuelve el indice del elemento de la matriz
 var busqueda2 = lenguajes.findIndex(lenguaje => lenguaje == "js");
 console.log(busqueda);
 console.log(busqueda2);
 
 var precios = [10,20,50,80,12];
+// Comprueba si al menos un elemento del array cumple con la condición
 var busqueda3 = precios.some(precio => precio <10);
 console.log(busqueda3);

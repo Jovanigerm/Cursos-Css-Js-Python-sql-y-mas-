@@ -39,7 +39,7 @@ function calculadora3(numero1,numero2){
 calculadora3(10,15);
 
 /////////////////////////////////////////////////
-//DEntro de un bucle
+//Dentro de un bucle
 for(var i = 0 ; i<=1; i++){
     calculadora3(i, 2);
     document.write("////////// <br>");

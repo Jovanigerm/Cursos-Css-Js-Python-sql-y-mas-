@@ -14,6 +14,8 @@ var seccion = document.querySelector("#miseccion");
 var valor;
 for(valor in todosLosDivs){
     if(typeof todosLosDivs[valor].textContent == 'string'){
+        
+        
         // Creacion de elementos con CreateElemt
         var parrafo = document.createElement("p");
         //createTextNode Una cadena que contiene los datos que se colocarán en el nodo de texto.
@@ -21,6 +23,7 @@ for(valor in todosLosDivs){
         //El método inserta un conjunto de objetos de cadena después del último hijo del Element.
         parrafo.append(texto);
         seccion.append(parrafo);        
+    
     }
 };
 

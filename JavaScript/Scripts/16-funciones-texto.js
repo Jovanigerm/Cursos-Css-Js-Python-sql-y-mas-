@@ -21,6 +21,7 @@ var dato = numero.toString();
     console.log("La longitud del texto es: " + dato)
     var nombre = ["hola","hola"]
     console.log("La longitud de la cade es: " + nombre.length)
+
 // Concatenar o unir textos
     //var textoTotal = texto1 + " " + texto2;
     var textoTotal = texto1.concat(" " + texto2);
@@ -45,6 +46,8 @@ var busqueda = texto1.indexOf("curso");
     
     busqueda = texto1.charAt(44);
     console.log("(chartAt) Saca la letra concreta de un string: " + busqueda);
+
+    //--------------Regresan un true o falce--------------
     
     busqueda = texto1.startsWith("Bienvenido");
     console.log("(startsWith) Busca al inicio del string un texto en especifico: " + busqueda );

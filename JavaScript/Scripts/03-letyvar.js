@@ -21,5 +21,5 @@ if(true){
     let texto = "Curso laravel 5";
     console.log(texto); // Valor larvel 5
 }
-console.log(texto); // Valor js
+console.log(texto); // Valor curso js
 
